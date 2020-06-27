@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void main()
+{
+float p,t,r,a,s;
+clrscr();
+printf("enter the values of p,t,r");
+scanf("%f%f%f",&p,&t,&r);
+s=p*t*r/100;
+printf("simple intrest is %f",s);
+a=p*pow(1+r/100,t);
+printf("compound intrest is %f",a);
+getch();
+}
+output:-
+p,t,r enter the values 
+5,7,70
+simple intrest =24.500
+compound intrest =205.16
+
